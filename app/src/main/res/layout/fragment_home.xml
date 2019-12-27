@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryBackground"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#fff"
+        android:gravity="center"
+        android:id="@+id/title_bar">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_guitar" />
+    </LinearLayout>
+
+    <!--//news artists-->
+    <TextView
+        android:id="@+id/new_pl"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:text="Recently played"
+        android:layout_below="@+id/title_bar"
+        android:textAppearance="@style/subtitle"
+        android:gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recently_played_songs_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_below="@id/new_pl">
+
+    </android.support.v7.widget.RecyclerView>
+    <!--<TextView
+        android:id="@+id/new_songs_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="This feature will be added soon"
+        android:textAppearance="@style/subtitle"
+        android:layout_below="@+id/new_pl">
+
+    </TextView>-->
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/new_songs_recyclerview"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="16dp"-->
+    <!--android:layout_below="@+id/new_pl">-->
+
+    <!--</android.support.v7.widget.RecyclerView>-->
+
+    <!--Recently Played Songs from cache-->
+    <TextView
+        android:id="@+id/recently_pl"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_below="@id/recently_played_songs_recyclerview"
+        android:text="Recently add"
+        android:textAppearance="@style/subtitle"
+        android:gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recent_songs_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/recently_pl">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+    <!--old hits-->
+    <TextView
+        android:id="@+id/classical_pl"
+        android:layout_width="match_parent"
+        android:layout_height="16dp"
+        android:layout_below="@id/recent_songs_recyclerview"
+        android:text="Old hits"
+        android:textAppearance="@style/subtitle"
+        android:gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/classical_songs_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/classical_pl">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

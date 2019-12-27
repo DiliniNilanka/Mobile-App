@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "883482803049",
+    "firebase_url": "https://useranalyticsdb.firebaseio.com",
+    "project_id": "useranalyticsdb",
+    "storage_bucket": "useranalyticsdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:883482803049:android:8a04412debc86203739bf8",
+        "android_client_info": {
+          "package_name": "com.sandalisw.mobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "883482803049-v6rnokhehr12q61nruahs12oqje5m5c2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sandalisw.mobileapp",
+            "certificate_hash": "2e67417d3c9e82fc4dfd34ac95ef781e855d299f"
+          }
+        },
+        {
+          "client_id": "883482803049-3gc386ngjkorbn49vrltcfss2t6haep2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgZZjGBMBiBypQqVFqzjC8VHXlNhlt2DU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "883482803049-3gc386ngjkorbn49vrltcfss2t6haep2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
